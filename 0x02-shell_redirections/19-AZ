@@ -1,3 +1,3 @@
 #!/bin/bash
-tr "Ac" "Ze"
-
+read -p "Insert word: " word
+echo $word | tr Ac Ze
